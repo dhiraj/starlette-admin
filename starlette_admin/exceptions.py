@@ -30,3 +30,7 @@ class ActionFailed(StarletteAdminException):
 
 class NotSupportedAnnotation(StarletteAdminException):
     pass
+
+
+class NotSupportedColumn(StarletteAdminException):
+    pass
